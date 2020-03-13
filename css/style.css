@@ -1,0 +1,52 @@
+body{}
+h1{
+    padding: 27px;
+}
+h6{
+	color: #1397d6;
+	font-size: 25px;
+	font-weight: 500;
+	/* padding: 2px; */
+}
+h3{
+    font-size: 15px;
+    padding: 20px;
+    text-transform: capitalize;
+}
+p{
+    font-size: 22px;
+    line-height: 1.5;
+}
+.service-section,.feature-section,.partners-section{
+	padding: 100px;
+}
+.service,.feature{
+	padding: 10px
+}
+.partners-section a{
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.partners-section h1{
+	font-size:65px;
+}
+.partners{
+	text-align:center;
+}
+footer{}
+footer a{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #867171;
+}
+footer b{
+    font-size: 27px;
+}
+nav{}
+@media(
+	max-width:767px;){
+	.partners-section h1{
+		font-size:40px;
+	}
+
+}
